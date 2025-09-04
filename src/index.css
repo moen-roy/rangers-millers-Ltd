@@ -2,8 +2,122 @@
 body {
   background: url(https://www.shutterstock.com/image-photo/field-young-corn-on-sunny-600nw-2441733147.jpg);
   background-size: cover;
-  background-position: bottom center ;
+
   height: 38rem;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+img{
+  height: 15rem;
+}
+.home{
+ background-color: rgba(0, 0, 0, 0.418);
+
+}
+a{
+  padding: 20px;
+  text-decoration: none;
+  color: antiquewhite;
+  font-weight: bold;
+  font-style: none;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0px;  
+  font-family: "Poppins", Arial, Tahoma, sans-serif;
+}
+a:hover{
+  color: rgba(0, 0, 0, 0.74);
+  background-color: green;
+  border-radius: 15px;  
+  text-decoration:underline rgb(3, 78, 3) ;
+
+}
+.navigation{
+    margin-top: -2rem;
+    background: rgba(0, 0, 0, 0.123);
+
+
+}
+#logo{
+  letter-spacing: 5px;
+  margin-left: 10rem;
+  color: rgb(3, 78, 3);
+  padding: 20px;
+  font-weight: bold;
+  font-size: 2.5rem;
+  -webkit-text-stroke-width: 3px;
+  }
+ span{
+  color: green;
+    /* background: rgba(0, 0, 0, 0.582); */
+  }
+.nav-menu{  
+  padding: 20px;
+  /* margin-right: 15rem;  
+  margin-left: 30rem; */
+  display: flex;
+  align-self: center;
+  justify-content: end;
+  margin-top: -7rem;
+  border-radius: 10px;
+}
+.packets{
+
+}
+#packages{
+    height: 35rem;
+    width: 25rem;
+    margin-left: 15rem;
+}
+.intro{
+  padding: 20px;
+  color: green;
+  font-weight: bold;
+  font-size: 3rem;
+  -webkit-text-stroke-width: 7px;
+  letter-spacing: 10px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-family: "Poppins", Arial, Tahoma, sans-serif;
+}
+#name{  
+  margin-top: -33rem;
+  margin-left: 38rem;
+}
+#name1{  
+  margin-top: 0rem;
+  margin-left: 42rem;
+}
+h3{
+   color:green;
+ font-size: 30px;
+ padding: 37px;
+ /* background: greenyellow; */
+ border-radius: 1000rem;
+ background-color:rgba(255, 255, 255, 0.534);
+  margin: 0;
+  padding: 60px;
+  width: 5%;
+  border: 20px solid rgba(245, 245, 245, 0.445);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 3rem;
+
+}
+.quantity{ 
+   flex-direction: row;
+   display: flex;
+   align-content: center;
+   justify-content: end;
+  
 }
 
+#verical{
+
+}
+#horizontal{
+
+}
