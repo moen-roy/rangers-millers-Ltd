@@ -1,6 +1,4 @@
 "use client"
-import maizeFlourImage from '../assets/images/packages.png'
-import AnimalFeedImage from '../assets/images/animal-feed-grains.jpg'
 export default function Products() {
   return (
     <section id="products" className="py-16 bg-gray-50">
@@ -12,7 +10,7 @@ export default function Products() {
           {/* Premium Maize Flour */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
             <img
-              src={maizeFlourImage}
+              src="/images/packages.png"
               alt="Premium maize flour package"
               className="w-full h-64 object-cover"
             />
@@ -24,7 +22,7 @@ export default function Products() {
 
           {/* Animal Feed Products */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
-            <img src={AnimalFeedImage} alt="Animal feed products" className="w-full h-64 object-cover" />
+            <img src="/images/animal-feed-grains.jpg" alt="Animal feed products" className="w-full h-64 object-cover" />
             <div className="p-6">
               <h3 className="text-2xl font-black text-[#1a3a2a] mb-2">Animal feed products</h3>
               <p className="text-gray-600">Quality feeds for livestock health.</p>
