@@ -9,7 +9,7 @@ export default function Hero() {
           style={{
             backgroundImage:
               "url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/packages-NvPHtU31xA9kN9TN2CVwsJ9exADsVT.png)",
-            backgroundSize: "500px 850px",
+            backgroundSize: "350px 650px",
             backgroundPosition: "center",
           }}
         ></div>
