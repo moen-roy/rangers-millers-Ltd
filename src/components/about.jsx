@@ -23,7 +23,7 @@ export default function About() {
 
           {/* Right side - Image */}
           <div>
-            <img src="src/assets/images/maize-field-corn-crops.jpg" />
+            <img src="/src/assets/images/maize-field-corn-crops.jpg" alt="Maize Field" className="w-full h-auto rounded-lg shadow-lg" />
           </div>
         </div>
       </div>
