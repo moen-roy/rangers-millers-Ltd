@@ -1,4 +1,5 @@
 "use client"
+import maizeFieldImage from '../assets/images/maize-field-corn-crops.jpg'
 
 export default function About() {
   return (
@@ -23,7 +24,7 @@ export default function About() {
 
           {/* Right side - Image */}
           <div>
-            <img src="/src/assets/images/maize-field-corn-crops.jpg" alt="Maize Field" className="w-full h-auto rounded-lg shadow-lg" />
+            <img src={maizeFieldImage} alt="Maize Field" className="w-full h-auto rounded-lg shadow-lg" />
           </div>
         </div>
       </div>
