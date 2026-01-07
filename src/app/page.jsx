@@ -5,6 +5,7 @@ import Hero from "@/components/hero"
 import Products from "@/components/products"
 import About from "@/components/about"
 import Footer from "@/components/footer"
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Products />
       <Footer />
+      <Analytics />
     </main>
   )
 }
